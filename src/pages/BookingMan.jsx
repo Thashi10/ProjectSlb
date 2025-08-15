@@ -22,6 +22,7 @@ import {
   Mail,
   Download,
   RefreshCw,
+  Shield,
   TrendingUp
 } from 'lucide-react';
 
@@ -170,6 +171,11 @@ const BookingDashboard = () => {
             <span className="font-medium">Bus Management</span>
           </a>
           
+          <a href="#" className="flex items-center space-x-3 px-4 py-3 rounded-xl text-gray-600 hover:bg-gray-100 transition-all duration-200 hover:text-gray-900">
+            <Shield className="w-5 h-5" />
+            <span className="font-medium">Admine Management</span>
+          </a>
+          
           <a href="#" className="flex items-center space-x-3 px-4 py-3 rounded-xl bg-gradient-to-r from-blue-500 to-indigo-500 text-white shadow-lg transform transition-all duration-200 hover:scale-105">
             <Ticket className="w-5 h-5" />
             <span className="font-medium">Bookings</span>
@@ -178,11 +184,6 @@ const BookingDashboard = () => {
           <a href="#" className="flex items-center space-x-3 px-4 py-3 rounded-xl text-gray-600 hover:bg-gray-100 transition-all duration-200 hover:text-gray-900">
             <Users className="w-5 h-5" />
             <span className="font-medium">Passengers</span>
-          </a>
-          
-          <a href="#" className="flex items-center space-x-3 px-4 py-3 rounded-xl text-gray-600 hover:bg-gray-100 transition-all duration-200 hover:text-gray-900">
-            <Calendar className="w-5 h-5" />
-            <span className="font-medium">Schedules</span>
           </a>
    
 

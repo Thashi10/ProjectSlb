@@ -19,6 +19,7 @@ import {
   CheckCircle,
   AlertCircle,
   Tickets,
+  Shield,
   XCircle
 } from 'lucide-react';
 
@@ -137,6 +138,11 @@ const BusManagement = () => {
           </a>
           
           <a href="#" className="flex items-center space-x-3 px-4 py-3 rounded-xl text-gray-600 hover:bg-gray-100 transition-all duration-200 hover:text-gray-900">
+            <Shield className="w-5 h-5" />
+            <span className="font-medium">Admine Managemet</span>
+          </a>
+          
+          <a href="#" className="flex items-center space-x-3 px-4 py-3 rounded-xl text-gray-600 hover:bg-gray-100 transition-all duration-200 hover:text-gray-900">
             <Tickets className="w-5 h-5" />
             <span className="font-medium">Bookings</span>
           </a>
@@ -145,13 +151,6 @@ const BusManagement = () => {
             <Users className="w-5 h-5" />
             <span className="font-medium">Passengers</span>
           </a>
-          
-          <a href="#" className="flex items-center space-x-3 px-4 py-3 rounded-xl text-gray-600 hover:bg-gray-100 transition-all duration-200 hover:text-gray-900">
-            <Calendar className="w-5 h-5" />
-            <span className="font-medium">Schedules</span>
-          </a>
-          
-        
           
           <a href="#" className="flex items-center space-x-3 px-4 py-3 rounded-xl text-gray-600 hover:bg-gray-100 transition-all duration-200 hover:text-gray-900">
             <Settings className="w-5 h-5" />

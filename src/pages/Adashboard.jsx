@@ -25,6 +25,7 @@ import {
   ArrowDown,
   MoreVertical,
   Activity,
+  Shield,
   DollarSign
 } from 'lucide-react';
 import { LineChart, Line, AreaChart, Area, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, PieChart, Pie, Cell } from 'recharts';
@@ -143,6 +144,11 @@ const Dashboard = () => {
             <span className="font-medium">Bus Management</span>
           </a>
           
+          <a href="#" className="flex items-center space-x-3 px-4 py-3 rounded-xl text-gray-600 hover:bg-gray-100 transition-all duration-200 hover:text-gray-900">
+            <Shield className="w-5 h-5" />
+            <span className="font-medium">Admine Managemet</span>
+          </a>
+
           <a href="#" className="flex items-center space-x-3 px-4 py-3 rounded-xl text-gray-600 hover:bg-gray-100 transition-all duration-200">
             <Ticket className="w-5 h-5" />
             <span className="font-medium">Bookings</span>
@@ -151,11 +157,6 @@ const Dashboard = () => {
           <a href="#" className="flex items-center space-x-3 px-4 py-3 rounded-xl text-gray-600 hover:bg-gray-100 transition-all duration-200">
             <Users className="w-5 h-5" />
             <span className="font-medium">Passengers</span>
-          </a>
-          
-          <a href="#" className="flex items-center space-x-3 px-4 py-3 rounded-xl text-gray-600 hover:bg-gray-100 transition-all duration-200">
-            <Calendar className="w-5 h-5" />
-            <span className="font-medium">Schedules</span>
           </a>
           
           <a href="#" className="flex items-center space-x-3 px-4 py-3 rounded-xl text-gray-600 hover:bg-gray-100 transition-all duration-200">
