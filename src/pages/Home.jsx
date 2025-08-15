@@ -94,8 +94,8 @@ export default function Home() {
             <div className="hidden md:flex items-center space-x-8">
               <a href="#" className="text-gray-300 hover:text-blue-600 transition-colors font-medium">Home</a>
               <a href="#" className="text-gray-300 hover:text-blue-600 transition-colors font-medium">Routes</a>
-              <a href="#" className="text-gray-300 hover:text-blue-600 transition-colors font-medium">Seasons</a>
-              <a href="#" className="text-gray-300 hover:text-blue-600 transition-colors font-medium">Help</a>
+              <a href="#" className="text-gray-300 hover:text-blue-600 transition-colors font-medium">Booking</a>
+              <a href="#" className="text-gray-300 hover:text-blue-600 transition-colors font-medium">Contact Us</a>
               <button className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors font-medium">
                 Sign In
               </button>
