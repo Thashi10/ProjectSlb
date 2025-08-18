@@ -10,6 +10,7 @@ import AdminDashboard from './pages/admineman'
 import { AmpersandIcon, BookDashed } from 'lucide-react'
 import Dashboard from './pages/Adashboard'
 import PassengersPage from './pages/Passengers'
+import ContactUs from './pages/Contact'
 
 
 function App() {
@@ -25,7 +26,7 @@ function App() {
         </Routes>
       </BrowserRouter> */}
 
-      <PassengersPage/>
+      <ContactUs/>
     </>
   )
 }
