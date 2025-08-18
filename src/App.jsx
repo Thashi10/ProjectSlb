@@ -9,6 +9,7 @@ import BookingDashboard from './pages/BookingMan'
 import AdminDashboard from './pages/admineman'
 import { AmpersandIcon, BookDashed } from 'lucide-react'
 import Dashboard from './pages/Adashboard'
+import PassengersPage from './pages/Passengers'
 
 
 function App() {
@@ -24,7 +25,7 @@ function App() {
         </Routes>
       </BrowserRouter> */}
 
-      <Dashboard/>
+      <PassengersPage/>
     </>
   )
 }
