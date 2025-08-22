@@ -23,7 +23,7 @@ export default function SignInPage() {
               <div className="w-10 h-10 bg-gradient-to-r from-blue-600 to-blue-700 rounded-lg flex items-center justify-center">
                 <Bus className="w-6 h-6 text-white" />
               </div>
-              <span className="text-xl font-bold text-gray-900">ProjectSlb</span>
+              <span className="text-xl font-bold text-gray-900">GoRide</span>
             </div>
 
             {/* Desktop Menu */}
@@ -81,7 +81,7 @@ export default function SignInPage() {
                   <Bus className="w-7 h-7 text-white" />
                 </div>
                 <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent">
-                  ProjectSlb
+                  GoRide
                 </span>
               </div>
               <h2 className="text-2xl font-bold text-gray-900 mb-2">Sign In</h2>
