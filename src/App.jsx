@@ -11,6 +11,7 @@ import { AmpersandIcon, BookDashed } from 'lucide-react'
 import Dashboard from './pages/Adashboard'
 import PassengersPage from './pages/Passengers'
 import ContactUs from './pages/Contact'
+import ProjectSLB from './pages/Routspage'
 
 
 function App() {
@@ -26,7 +27,7 @@ function App() {
         </Routes>
       </BrowserRouter> */}
 
-      <SignInPage/>
+      <ProjectSLB/>
     </>
   )
 }
